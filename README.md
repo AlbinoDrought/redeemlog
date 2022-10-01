@@ -26,6 +26,6 @@ This project uses Twitch's IRC "API" to avoid the cumbersome authentication requ
 
 or
 
-`docker build -t redeemlog && docker run --rm -e YOUR_CONFIG=here redeemlog`
+`docker run --rm -e YOUR_CONFIG=here ghcr.io/albinodrought/redeemlog:latest`
 
-The container is not published anywhere, you must build it yourself.
+(for fresh build: `docker build -t ghcr.io/albinodrought/redeemlog:latest .`)
